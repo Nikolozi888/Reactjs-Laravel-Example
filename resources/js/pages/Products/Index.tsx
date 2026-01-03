@@ -1,7 +1,7 @@
 import { Link, useForm } from '@inertiajs/react';
 
 export default function Index({ products }) {
-    const { data, setData, post, delete: destroy } = useForm({
+    const { setData, post, delete: destroy } = useForm({
         name: '',
         price: ''
     });
